@@ -140,14 +140,15 @@ echo "<html>
 
 ---
 
-## 🔍 Difference: AMI vs Launch Template
+##🔄 Create Image vs Create Template (Table)
 
-| AMI                        | Launch Template          |
-| -------------------------- | ------------------------ |
-| OS + Software image        | Instance configuration   |
-| Snapshot based             | Reusable settings        |
-| Server cloning ke liye use | Automation ke liye use   |
-| Instance ke liye required  | Optional but recommended |
+| Create Image (AMI)   | Create Template        |
+| -------------------- | ---------------------- |
+| Full server image    | Only configuration     |
+| OS + Software + Data | AMI + settings         |
+| Snapshot based       | No data snapshot       |
+| Backup ke liye use   | Automation ke liye use |
+| Instance cloning     | Fast repeat launch     |
 
 ---
 
