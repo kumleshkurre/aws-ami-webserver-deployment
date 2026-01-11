@@ -3,7 +3,7 @@
 ## 📌 Definition
 
 Amazon Machine Image (AMI) is a pre-configured template that includes an operating system, installed software, application configurations, and permissions.
-AMIs are used to quickly and easily launch Amazon EC2 instances with the same configuration.hain.
+AMIs are used to quickly and easily launch Amazon EC2 instances with the same configuration.
 
 > **Simple words:**
 > **AMI = EC2 instance ka ready-made image (OS + Software + Settings)**
