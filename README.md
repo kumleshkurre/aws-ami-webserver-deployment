@@ -2,7 +2,8 @@
 
 ## 📌 Definition
 
-**Amazon Machine Image (AMI)** ek pre-configured template hota hai jisme Operating System, installed software, application configuration aur permissions included hote hain. AMI ka use karke hum same configuration ke EC2 instances easily aur quickly launch kar sakte hain.
+Amazon Machine Image (AMI) is a pre-configured template that includes an operating system, installed software, application configurations, and permissions.
+AMIs are used to quickly and easily launch Amazon EC2 instances with the same configuration.hain.
 
 > **Simple words:**
 > **AMI = EC2 instance ka ready-made image (OS + Software + Settings)**
@@ -31,13 +32,11 @@
 ---
 
 ## 🎯 Use Cases of AMI
-
-* Production servers quickly deploy karna
-* Auto Scaling ke liye same configuration reuse karna
-* Backup aur disaster recovery
-* Dev, Test aur Production environments same rakhna
-* Multiple web servers with identical setup
-
+- Quickly deploy production servers
+- Reuse the same configuration for Auto Scaling
+- Backup and disaster recovery
+- Maintain consistency across Development, Testing, and Production environments
+- Launch multiple web servers with an identical setup
 ---
 
 ## 🛠️ Practical: Create AMI & Launch Instance
