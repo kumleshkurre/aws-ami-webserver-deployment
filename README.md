@@ -76,7 +76,7 @@ AMIs are used to quickly and easily launch Amazon EC2 instances with the same co
    * Enable ✅ HTTP
 7. Advanced details → Paste **User Data script**:
 
-```bash
+```js
 #!/bin/bash
 sudo yum update -y
 
